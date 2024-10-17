@@ -6,8 +6,8 @@ const Booktable = ({ data }) => {
       <table className="min-w-full">
         <thead>
           <tr className="bg-red-600 text-white">
-            <th className="px-6 py-3 text-left text-sm font-bold uppercase tracking-wider">ID</th>
-            <th className="px-6 py-3 text-left text-sm font-bold uppercase tracking-wider">Title</th>
+            <th className="px-6 py-3 text-center text-sm font-bold uppercase tracking-wider">ID</th>
+            <th className="px-6 py-3 text-center text-sm font-bold uppercase tracking-wider">Title</th>
           </tr>
         </thead>
         <tbody className="bg-black divide-y divide-gray-700">
